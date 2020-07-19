@@ -21,3 +21,12 @@
   overflow: hidden;
   background-repeat: no-repeat;
 }
+
+@function multiplica($multiplicador) {
+  @return round($multiplicador * $tamanho-da-fonte-padrao);
+}
+
+////////////////////////////////////////////////////
+
+@import "compass/css3";
+@import "compass/utilities";
